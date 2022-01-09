@@ -2,18 +2,83 @@
   padding: 0;
   margin: 0;
 }
+@font-face{
+  font-family: 'digital-7';
+  src: url('../fonts/digital-7-italic.ttf') format('truetype');
+}
 body{
   background: #000;
 }
-header{
-  height: 300px;
-}
-nav{
-  margin: auto;
-  max-width: 1000px;
-}
 .logo{
   text-align: center;
-  font-size: 70px;
+  font-size: 20px;
   color: #fff;
+}
+main{
+  color: #fff;
+  max-width: 1000px;
+  margin: auto;
+}
+.calculator{
+  max-width: 400px;
+  margin: auto;
+  padding: 10px 10px;
+}
+.input-main{
+  display: flex;
+}
+.input{
+  width: 75.4%;
+  height: 50px;
+}
+input{
+  height: 100%;
+  width: 100%;
+  background: #e0e0e0;
+  font-size: 30px;
+  font-family: 'digital-7';
+}
+.UWV1{
+  width: 25.6%;
+  display: flex;
+  align-items: center;
+  font-size: 20px;
+  text-align: center;
+  justify-content: center;
+}
+.input-main{
+  height: 50px;
+}
+.calculator-border{
+  padding: 5px 5px;
+}
+.buttons{
+  display: flex;
+}
+ul{
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  
+}
+li{
+  font-family: sans-serif;
+  display: flex;
+  box-sizing: border-box;
+  border: 1px solid #c2c2c2;
+  font-size: 50px;
+  height: 79px;
+  width: 97px;
+  background-color: #424242;
+  justify-content: center;
+  align-items: center;
+}
+.blue-button{
+  background: #0026bd;
+}
+li:hover{
+  background: #636363;
+}
+.blue-button:hover{
+  background: #0839ff;
 }
