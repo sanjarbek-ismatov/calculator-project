@@ -72,6 +72,8 @@ li{
   background-color: #424242;
   justify-content: center;
   align-items: center;
+  user-select: none;
+  -moz-user-select: none;
 }
 .blue-button{
   background: #0026bd;
